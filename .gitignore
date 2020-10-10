@@ -1,0 +1,11 @@
+# IDE
+.vscode
+
+# Folders
+node_modules
+dist
+
+# Yarn
+yarn-debug.log*
+yarn-error.log*
+
