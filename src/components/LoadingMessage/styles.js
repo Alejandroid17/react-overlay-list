@@ -1,5 +1,4 @@
 import React from 'react';
-
 import css from 'styled-jsx/macro';
 
 export const loadingMessageContainerStyle = css.resolve`

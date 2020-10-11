@@ -1,3 +1,3 @@
-const { OverlayList } = "./components/OverlayList/OverlayList.js";
+const { OverlayList } = './components/OverlayList/OverlayList.js';
 
 export { OverlayList };

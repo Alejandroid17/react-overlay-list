@@ -1,6 +1,6 @@
-import React from "react";
-import { loadingMessageContainerStyle } from "./styles";
-import PropTypes from "prop-types";
+import PropTypes from 'prop-types';
+import React from 'react';
+import { loadingMessageContainerStyle } from './styles';
 
 export default function LoadingMessage(props) {
   const { loadingMessage } = props;
@@ -16,7 +16,7 @@ export default function LoadingMessage(props) {
 }
 
 LoadingMessage.defaultProps = {
-  loadingMessage: "Loading...",
+  loadingMessage: 'Loading...',
 };
 
 LoadingMessage.propTypes = {

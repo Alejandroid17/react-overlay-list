@@ -1,8 +1,8 @@
-import React from "react";
-import Option from "../Option/Option";
-import LoadingMessage from "../LoadingMessage/LoadingMessage";
-import NoOptionsMessage from "../NoOptionsMessage/NoOptionsMassage";
-import { menuListContainerStyle } from "./styles";
+import LoadingMessage from '../LoadingMessage/LoadingMessage';
+import NoOptionsMessage from '../NoOptionsMessage/NoOptionsMassage';
+import Option from '../Option/Option';
+import React from 'react';
+import { menuListContainerStyle } from './styles';
 
 export default function MenuList(props) {
   const {

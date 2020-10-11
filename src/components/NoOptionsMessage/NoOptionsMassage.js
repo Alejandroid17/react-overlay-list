@@ -1,6 +1,6 @@
-import React from "react";
-import { noOptionMessageContainerStyle } from "./styles";
-import PropTypes from "prop-types";
+import PropTypes from 'prop-types';
+import React from 'react';
+import { noOptionMessageContainerStyle } from './styles';
 
 export default function NoOptionsMessage(props) {
   const { noOptionMessage } = props;
@@ -16,7 +16,7 @@ export default function NoOptionsMessage(props) {
 }
 
 NoOptionsMessage.defaultProps = {
-  noOptionMessage: "No options",
+  noOptionMessage: 'No options',
 };
 
 NoOptionsMessage.propTypes = {

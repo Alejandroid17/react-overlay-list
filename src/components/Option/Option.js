@@ -1,6 +1,7 @@
-import React, { useState } from "react";
-import { getOptionContainerStyle } from "./styles";
-import PropTypes from "prop-types";
+import React, { useState } from 'react';
+
+import PropTypes from 'prop-types';
+import { getOptionContainerStyle } from './styles';
 
 export default function Option({ option, isSelected, onSelect }) {
   const [isFocused, setIsFocused] = useState(false);

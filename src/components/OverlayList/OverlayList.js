@@ -1,7 +1,8 @@
 import React, { useRef, useState } from 'react';
-import Overlay from 'react-overlays/Overlay';
+import { childrenStyles, menuContainerStyles } from './styles';
+
 import MenuList from '../MenuList/MenuList';
-import { menuContainerStyles, childrenStyles } from './styles';
+import Overlay from 'react-overlays/OverlayList';
 import PropTypes from 'prop-types';
 
 function OverlayList(props) {
@@ -68,7 +69,7 @@ function OverlayList(props) {
 
 OverlayList.propTypes = {
   /**
-   * 
+   *
    **/
   children: PropTypes.element.isRequired,
   /**
@@ -76,7 +77,7 @@ OverlayList.propTypes = {
    */
   options: PropTypes.array,
   /**
-   * 
+   *
    */
   selectedValue: PropTypes.string,
 };
